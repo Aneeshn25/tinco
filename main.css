@@ -1,0 +1,130 @@
+body{
+	background-image: url(images/image.jpg);
+	background-size: 100%;
+	background-size: cover;
+	position: relative;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin: 0;
+	/*cursor: context-menu;*/
+}
+nav{
+	padding-bottom: 5.75em;
+	background: url(images/image.jpg);
+  	background-attachment: fixed;
+	background-size: cover;
+	overflow: hidden;
+  	position: fixed;
+  	/*background-color: black;*/
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+nav ul{
+	position: fixed;
+	top: 0;
+	padding: 0;
+	margin: 20px 0 20px 20px;
+	list-style-type: none;
+	overflow: hidden;
+	width: 93%;
+}
+nav ul li{
+	float: left;
+	padding: 0px 0px 0px 8px;
+	margin: 0;
+	list-style: none;
+}
+nav ul li a{
+	font-size: 22px;
+	float: left;
+	display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+nav ul li a:hover:not(.about){
+	background-color: #ffffff;
+	color: 	#000000;
+}
+#footer{
+	color: white;
+	line-height: 50px;
+}
+.active:not(.about){
+	background-color: #ffffff;
+	color: #000000;
+}
+#welcome{
+	font-size: 28px;
+	color: white;
+	padding-left: 3em;
+	text-shadow: 3px 3px 5px black;
+	margin-top: 3.5em;
+}
+.projects ul li a{
+	padding-bottom: 10px;
+	text-decoration: none;
+	color: white;
+	line-height: 2em;
+	list-style-type: none;
+}
+.projects ul li a:hover{
+	text-decoration: underline;
+}
+.in_2 div{
+	padding-left: 2em;
+}
+.news {
+	margin-right: 10%;
+	padding: 1em 1em 1em 1.5em; 
+	text-align: left;
+}
+.in_1{
+	font-weight: bold;
+	font-size: 20px;
+	padding-bottom: 1em;
+}
+.in_2 {
+	line-height: 1.5em;
+	font-size: 19px;
+	display: block;
+}
+.in_3{
+	text-align: center;
+	font-size: 28px;
+	color: white;
+	text-shadow: 3px 3px 5px black;
+}
+.module {
+  background: url(images/blurBackground.png);
+  background-attachment: fixed;
+  background-size: cover;
+  border-radius: 40px;
+  height: 100%;
+  margin: 0% 15%;
+}
+.in_5 {
+  color: white;
+  padding: 5%;
+  font-size: 1.5em;
+}
+.profile_pic{
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;
+	padding: 2.5em;
+}
+.profile{
+	margin-top: 5.75em;
+	text-align: center;
+}
+.cover_text{
+	font-size: 1.3em;
+	padding-top: 1em;
+	z-index: 0;
+}
